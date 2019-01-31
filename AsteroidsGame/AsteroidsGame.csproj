@@ -46,11 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseObject.cs" />
+    <Compile Include="Direction.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreen.cs" />
-    <Compile Include="StarObject.cs" />
+    <Compile Include="StarShip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
