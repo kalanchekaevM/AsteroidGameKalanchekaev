@@ -1,0 +1,7 @@
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\bin\Debug\AsteroidsGame.exe.config
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\bin\Debug\AsteroidsGame.exe
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\bin\Debug\AsteroidsGame.pdb
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\obj\Debug\AsteroidsGame.csprojAssemblyReference.cache
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\obj\Debug\AsteroidsGame.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\obj\Debug\AsteroidsGame.exe
+C:\Users\Максим\Documents\git-hub\GameAsteroids\AsteroidsGame\AsteroidsGame\obj\Debug\AsteroidsGame.pdb
