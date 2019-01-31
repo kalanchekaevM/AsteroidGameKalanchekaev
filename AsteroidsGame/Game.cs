@@ -32,7 +32,7 @@ namespace AsteroidsGame
             for (int i = 0; i < _objs.Length; i++)
             {
                 int sizeobj = r.Next(0, 4) * 8;
-                _objs[i] = new BaseObject(Image.FromFile("Assets/512x512bb.png"), new Point(r.Next(1, form.Width), r.Next(1, form.Height)), new Point(r.Next(4, 15) - 9, r.Next(4, 15) - 9), new Size(sizeobj, sizeobj));
+                _objs[i] = new BaseObject(Image.FromFile("Assets/512x512bb.png"), new Point(r.Next(1, form.Width), r.Next(1, form.Height)), new Point(r.Next(4, 15) - 9, r.Next(4, 15) - 9));
             }
             
         }
