@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace AsteroidsGame
 {
@@ -12,6 +11,7 @@ namespace AsteroidsGame
     { 
         static void Main(string[] args)
         {   
+            System.Drawing.Icon icon = new System.Drawing.Icon("Assets/32х32.ico");
             SplashScreen splash = new SplashScreen();
             splash.Run();
         }

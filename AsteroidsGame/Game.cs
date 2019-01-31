@@ -29,20 +29,19 @@ namespace AsteroidsGame
             Random r = new Random();
 
             _objs = new BaseObject[200];
-            for (int i = 0; i < _objs.Length-1; i++)
+            for (int i = 0; i < _objs.Length; i++)
             {
-                _objs[i] = new BaseObject(Image.FromFile("Assets/512x512bb.png"), new Point(r.Next(1, form.Width), r.Next(1, form.Height)), new Point(r.Next(4, 15) - 9, r.Next(4, 15) - 9));
+                int sizeobj = r.Next(0, 4) * 8;
+                _objs[i] = new BaseObject(Image.FromFile("Assets/512x512bb.png"), new Point(r.Next(1, form.Width), r.Next(1, form.Height)), new Point(r.Next(4, 15) - 9, r.Next(4, 15) - 9), new Size(sizeobj, sizeobj));
             }
-            StarShip ship = new StarShip(Direction.RIGHT, Image.FromFile("Assets/starship.png"), new Point(100, 100), new Point(100, 0));
-            _objs[_objs.Length - 1] = ship;
-
+            
         }
 
         //Инициализация формы игры
         public static void Init(Form gameform)
         {
             Game.Load(gameform);
-           
+
             Timer timer = new Timer { Interval = 42 };
             timer.Start();
             timer.Tick += Timer_Tick;
