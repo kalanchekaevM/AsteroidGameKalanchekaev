@@ -8,10 +8,12 @@ namespace AsteroidsGame
         protected Point Pos;
         protected Point Dir;
         protected Size Size;
+        protected Image Image;
 
 
-        public BaseObject(Point pos, Point dir, Size size)
-        { 
+        public BaseObject(Image image, Point pos, Point dir, Size size)
+        {
+            Image = image;
             Pos = pos;
             Dir = dir;
             Size = size;
@@ -19,7 +21,7 @@ namespace AsteroidsGame
 
         public virtual void Draw()
         {
-            Game.Buffer.Graphics.DrawImage(Image.FromFile("Assets/512x512bb.png"), Pos.X, Pos.Y);
+            Game.Buffer.Graphics.DrawImage(Image, Pos.X, Pos.Y);
         }
 
         public void Update()
