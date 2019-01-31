@@ -19,7 +19,7 @@ namespace AsteroidsGame
 
         public virtual void Draw()
         {
-            Game.Buffer.Graphics.DrawImage(Image.FromFile("Assets/512x512bb.png"), Pos.X, Pos.Y);
+            Game.Buffer.Graphics.DrawEllipse(Pens.Azure, 1000, 20, 30, 30);
         }
 
         public void Update()
