@@ -77,7 +77,7 @@ namespace AsteroidsGame
         private static void Backtomenubutton_Click(object sender, EventArgs e)
         {
             //Крестик во время игры
-            Application.Exit();
+            Application.Restart();
         }
 
         //Событие обновления таймера. 
